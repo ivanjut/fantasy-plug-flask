@@ -8,11 +8,11 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">FantasyPlug</a>
-        <a class="my-team" href="index.html">My Team</a>
-        <a class="news" href="index.html">News</a>
-        <a class="stats" href="index.html">Stats</a>
-        <a class="video" href="index.html">Video</a>
+        <a class="navbar-brand" href="{{url_for('index')}}">FantasyPlug</a>
+        <a class="my-team" href="{{url_for('my_team')}}">My Team</a>
+        <a class="news" href="{{url_for('news')}}">News</a>
+        <a class="stats" href="{{url_for('stats')}}">Stats</a>
+        <a class="video" href="{{url_for('video')}}">Video</a>
     </nav>
     {% block content %}
     {% endblock %}
