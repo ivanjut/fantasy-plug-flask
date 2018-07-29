@@ -42,7 +42,7 @@ def video():
 
 
 #####################################################
-#### DATABASES ####
+#### DATABASE MODELS ####
 #####################################################
 class Players(db.Model):
 	# Set table name
@@ -50,6 +50,19 @@ class Players(db.Model):
 
 	# Create columns of table
 	id = db.Column(db.Integer, primary_key=True)
+	name = db.Column(db.Text)
+
+	def __init__(self, name):
+		"""
+		Defines an instance of a Players database table
+		"""
+		self.name = name
+
+	def __repr__(self):
+		"""
+		String representation of a single item in the Players database table
+		"""
+		return self.name
 
 
 if __name__ == "__main__":
