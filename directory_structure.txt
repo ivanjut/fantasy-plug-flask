@@ -1,0 +1,32 @@
+├───app.py # main app.py file to be called to start server for web app
+├───requirements.txt # File of pip install statements for your app
+├───migrations # folder created for migrations by calling
+├───app # main project folder, sub-components will be in separate folders
+|   |   __init__.py
+│   │   data.sqlite
+│   |---models
+│   │   |--- database .py classes
+│   │
+│   ├───owners
+│   │   │   forms.py
+│   │   │   views.py
+│   │   │
+│   │   ├───templates
+│   │      └───owners
+│   │             add_owner.html
+│   │   
+│   │
+│   ├───puppies
+│   │   │   forms.py
+│   │   │   views.py
+│   │   │
+│   │   ├───templates
+│   │   │   └───puppies
+│   │   │           add.html
+│   │   │           delete.html
+│   │   │           list.html
+│   │
+│   ├───static # Where you store your CSS, JS, Images, Fonts, etc...
+│   ├───templates
+│          base.html
+│          home.html
