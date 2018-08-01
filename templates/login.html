@@ -1,11 +1,11 @@
 {% extends "base.html"%}
 {% block content %}
 <div class="jumbotron">
-    <h2>My Team</h2>
-    <p>Add players that you want information about to your team.</p>
+    <h2>Login</h2>
     <form method="POST">
       {{ form.hidden_tag() }}
-      {{ form.player.label }} {{ form.player() }}
+      {{ form.username.label }} {{ form.username() }}
+      {{ form.password.label }} {{ form.password() }}
       {{ form.submit() }}
     </form>
 </div>

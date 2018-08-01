@@ -26,7 +26,7 @@ db = SQLAlchemy(app)
 #####################################################
 @app.route("/")
 def index():
-	return render_template('index.html')
+	return render_template("index.html")
 
 
 @app.route("/my_team", methods=["GET", "POST"])
@@ -34,22 +34,43 @@ def my_team():
 	form = PlayerForm()
 	if form.validate_on_submit():
 		return redirect(url_for("my_team"))
-	return render_template('my_team.html', form=form)
+	return render_template("my_team.html", form=form)
 
 
 @app.route("/news")
 def news():
-	return render_template('news.html')
+	return render_template("news.html")
 
 
 @app.route("/stats")
 def stats():
-	return render_template('stats.html')
+	return render_template("stats.html")
 
 
 @app.route("/video")
 def video():
-	return render_template('video.html')
+	return render_template("video.html")
+
+
+@app.route("/login", methods=["GET", "POST"])
+def login():
+	form = LoginForm()
+	if form.validate_on_submit():
+		return redirect(url_for("index"))
+	return render_template("login.html", form=form)
+
+
+@app.route("/account_settings")
+def account_settings():
+	return render_template("account_settings.html")
+
+
+@app.route("/signup", methods=["GET", "POST"])
+def signup():
+	form = SignupForm()
+	if form.validate_on_submit():
+		return redirect(url_for("index"))
+	return render_template("signup.html", form=form)
 
 
 #####################################################
@@ -61,6 +82,25 @@ class PlayerForm(FlaskForm):
 	"""
 	player = StringField("Add player")
 	submit = SubmitField("Submit")
+
+
+class LoginForm(FlaskForm):
+	"""
+	Form for a user to log in
+	"""
+	username = StringField("Username")
+	password = StringField("Password")
+	submit = SubmitField("Login")
+
+
+class SignupForm(FlaskForm):
+	"""
+	Form for a user to sign up
+	"""
+	email = StringField("Email")
+	username = StringField("Username")
+	password = StringField("Password")
+	submit = SubmitField("Create Account")
 
 
 #####################################################
