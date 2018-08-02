@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/ivanjut333/fantplugenv"
+VIRTUAL_ENV="/Users/ivanjut333/Documents/fantasy-plug/fantplugenv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

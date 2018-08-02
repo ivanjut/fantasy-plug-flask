@@ -2,22 +2,321 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6b6f23-7e1f-45fb-aaf4-8ea5c0f3b2eb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/directory_structure.txt" afterPath="$PROJECT_DIR$/directory_structure.txt" />
-      <change beforePath="$PROJECT_DIR$/forms.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/manage.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/models/player.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/models/sftp-config.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/account_settings.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/my_team.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/news.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/stats.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/templates/video.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change beforePath="$PROJECT_DIR$/fantasyplug.py" afterPath="$PROJECT_DIR$/fantasyplug.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/activate" afterPath="$PROJECT_DIR$/fantplugenv/bin/activate" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/activate.csh" afterPath="$PROJECT_DIR$/fantplugenv/bin/activate.csh" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/activate.fish" afterPath="$PROJECT_DIR$/fantplugenv/bin/activate.fish" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/alembic" afterPath="$PROJECT_DIR$/fantplugenv/bin/alembic" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/easy_install" afterPath="$PROJECT_DIR$/fantplugenv/bin/easy_install" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/easy_install-3.7" afterPath="$PROJECT_DIR$/fantplugenv/bin/easy_install-3.7" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/flask" afterPath="$PROJECT_DIR$/fantplugenv/bin/flask" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/mako-render" afterPath="$PROJECT_DIR$/fantplugenv/bin/mako-render" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/pip" afterPath="$PROJECT_DIR$/fantplugenv/bin/pip" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/pip3" afterPath="$PROJECT_DIR$/fantplugenv/bin/pip3" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/bin/pip3.7" afterPath="$PROJECT_DIR$/fantplugenv/bin/pip3.7" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/Flask-1.0.2.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/SQLAlchemy-1.2.10-py3.7.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/SQLAlchemy-1.2.10-py3.7.egg-info/PKG-INFO" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/alembic-1.0.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/alembic-1.0.0.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/markupsafe/_speedups.cpython-37m-darwin.so" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/markupsafe/_speedups.cpython-37m-darwin.so" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/INSTALLER" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/LICENSE.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/METADATA" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/RECORD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/WHEEL" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/entry_points.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip-18.0.dist-info/top_level.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/__main__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/basecommand.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/basecommand.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/baseparser.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/baseparser.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/build_env.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/build_env.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/cache.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/cache.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/cmdoptions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/cmdoptions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/check.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/check.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/completion.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/completion.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/configuration.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/configuration.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/download.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/download.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/freeze.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/freeze.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/hash.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/hash.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/help.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/help.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/install.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/install.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/list.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/list.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/search.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/search.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/show.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/show.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/uninstall.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/uninstall.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/wheel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/commands/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/configuration.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/configuration.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/download.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/download.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/exceptions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/index.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/index.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/locations.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/locations.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/models/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/models/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/models/index.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/models/index.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/check.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/check.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/freeze.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/freeze.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/operations/prepare.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/pep425tags.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/pep425tags.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_file.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_file.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_install.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_install.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_set.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_set.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_tracker.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/req/req_uninstall.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/resolve.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/resolve.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/status_codes.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/appdirs.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/deprecation.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/deprecation.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/encoding.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/encoding.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/filesystem.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/filesystem.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/glibc.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/glibc.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/hashes.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/hashes.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/logging.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/logging.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/misc.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/misc.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/outdated.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/outdated.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/packaging.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/packaging.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/setuptools_build.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/setuptools_build.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/temp_dir.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/temp_dir.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/typing.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/typing.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/ui.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/utils/ui.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/bazaar.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/git.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/git.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/mercurial.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/mercurial.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/vcs/subversion.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/wheel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_internal/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/appdirs.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/appdirs.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/_cmd.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/adapter.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/adapter.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/cache.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/cache.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/file_cache.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/caches/redis_cache.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/controller.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/filewrapper.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/heuristics.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/serialize.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/cachecontrol/wrapper.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/__main__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/__main__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/cacert.pem" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/cacert.pem" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/core.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/certifi/core.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/big5freq.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/big5freq.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/big5prober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/big5prober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/chardistribution.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/chardistribution.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetgroupprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/charsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/chardetect.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cli/chardetect.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/codingstatemachine.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/codingstatemachine.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cp949prober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/cp949prober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/enums.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/enums.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/escprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/escprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/escsm.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/escsm.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/eucjpprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/eucjpprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrfreq.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrfreq.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euckrprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwfreq.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwfreq.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/euctwprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312freq.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312freq.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312prober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/gb2312prober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/hebrewprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/hebrewprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/jisfreq.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/jisfreq.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/jpcntx.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/jpcntx.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langbulgarianmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langcyrillicmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langgreekmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langgreekmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langhebrewmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langhebrewmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langhungarianmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langhungarianmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langthaimodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langthaimodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langturkishmodel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/langturkishmodel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/latin1prober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/latin1prober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcharsetprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcharsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcsgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcssm.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/mbcssm.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcharsetprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcharsetprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sbcsgroupprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sjisprober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/sjisprober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/universaldetector.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/universaldetector.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/utf8prober.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/utf8prober.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/version.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/chardet/version.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/ansi.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/ansi.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/ansitowin32.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/ansitowin32.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/initialise.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/initialise.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/win32.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/win32.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/winterm.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/colorama/winterm.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/misc.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/misc.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/shutil.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.cfg" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/sysconfig.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/_backport/tarfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/database.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/database.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/index.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/index.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/locators.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/locators.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/manifest.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/manifest.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/markers.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/markers.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/metadata.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/metadata.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/resources.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/resources.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/scripts.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/t32.exe" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/t32.exe" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/t64.exe" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/t64.exe" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/util.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/util.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/version.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/version.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/w32.exe" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/w32.exe" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/w64.exe" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/w64.exe" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/wheel.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distlib/wheel.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distro.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/distro.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_ihatexml.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_inputstream.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_inputstream.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_tokenizer.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/_base.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/datrie.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/py.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_trie/py.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_utils.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/_utils.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/constants.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/constants.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/alphabeticalattributes.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/base.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/base.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/inject_meta_charset.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/lint.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/lint.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/optionaltags.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/sanitizer.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/filters/whitespace.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/html5parser.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/serializer.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/genshi.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treeadapters/sax.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/base.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treebuilders/etree_lxml.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/base.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/dom.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/etree_lxml.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/html5lib/treewalkers/genshi.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/codec.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/codec.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/core.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/core.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/idnadata.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/idnadata.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/intranges.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/intranges.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/package_data.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/package_data.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/uts46data.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/idna/uts46data.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/ipaddress.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/ipaddress.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/linklockfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/linklockfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/mkdirlockfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/pidlockfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/sqlitelockfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/lockfile/symlinklockfile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/_version.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/_version.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/exceptions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/fallback.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/msgpack/fallback.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/__about__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/__about__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/_compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/_compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/_structures.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/_structures.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/specifiers.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/specifiers.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/utils.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/utils.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/version.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/packaging/version.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/py31compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pkg_resources/py31compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/bar.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/bar.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/counter.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/counter.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/helpers.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/helpers.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/spinner.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/progress/spinner.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pyparsing.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pyparsing.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/core.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/core.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/parser.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/parser.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/writer.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/pytoml/writer.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/__version__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/__version__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/_internal_utils.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/_internal_utils.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/adapters.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/api.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/api.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/auth.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/auth.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/certs.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/certs.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/compat.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/compat.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/cookies.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/cookies.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/exceptions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/help.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/help.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/hooks.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/hooks.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/models.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/models.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/packages.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/packages.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/sessions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/status_codes.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/status_codes.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/structures.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/structures.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/utils.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/requests/utils.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/retrying.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/retrying.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/six.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/six.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/_collections.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/_collections.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/appengine.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/appengine.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/ntlmpool.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/pyopenssl.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/securetransport.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/socks.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/contrib/socks.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/exceptions.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/exceptions.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/fields.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/fields.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/filepost.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/filepost.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/backports/makefile.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ordered_dict.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/six.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/six.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/poolmanager.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/poolmanager.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/request.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/request.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/response.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/response.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/connection.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/queue.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/request.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/request.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/response.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/response.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/retry.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/retry.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/timeout.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/url.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/url.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/wait.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/wait.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/__init__.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/labels.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/labels.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/mklabels.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/mklabels.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/tests.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/tests.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/pip/_vendor/webencodings/x_user_defined.py" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/setuptools-39.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/setuptools-39.0.1.dist-info/RECORD" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cprocessors.cpython-37m-darwin.so" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cprocessors.cpython-37m-darwin.so" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cresultproxy.cpython-37m-darwin.so" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cresultproxy.cpython-37m-darwin.so" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cutils.cpython-37m-darwin.so" afterPath="$PROJECT_DIR$/fantplugenv/lib/python3.7/site-packages/sqlalchemy/cutils.cpython-37m-darwin.so" />
+      <change beforePath="$PROJECT_DIR$/fantplugenv/pip-selfcheck.json" afterPath="$PROJECT_DIR$/fantplugenv/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +326,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/__init__.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="fantasyplug.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fantasyplug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="75">
+              <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -40,22 +339,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directory_structure.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/directory_structure.txt">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,10 +378,11 @@
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/forms.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
-        <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/directory_structure.txt" />
+        <option value="$PROJECT_DIR$/fantasyplug.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
       </list>
     </option>
   </component>
@@ -89,9 +393,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
     <option name="y" value="23" />
-    <option name="width" value="964" />
-    <option name="height" value="720" />
+    <option name="width" value="1175" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -108,6 +413,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,12 +431,10 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/Applications/Python 3.5/IDLE.app/Contents/MacOS/Python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -164,28 +468,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="964" height="720" extended-state="0" />
+    <frame x="-1920" y="23" width="1175" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2494577" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20653133" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -200,92 +504,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/routes.py">
+    <entry file="file://$PROJECT_DIR$/fantasyplug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#59#0" expanded="false" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3305#3312#1#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#360#379#0#HTML" expanded="false" />
-            <element signature="e#632#651#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -294,17 +526,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="64" lean-forward="true" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.py" />
+    <entry file="file://$PROJECT_DIR$/app/app.py" />
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="52" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/manage.py" />
+    <entry file="file://$PROJECT_DIR$/app.py" />
     <entry file="file://$PROJECT_DIR$/directory_structure.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fantasyplug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
