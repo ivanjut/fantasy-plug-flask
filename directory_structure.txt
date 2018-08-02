@@ -1,12 +1,22 @@
-├───app.py # main app.py file to be called to start server for web app
+├───fantasyplug.py # main file to be called to start server for web app
+|
+|---fantplugenv # folder containing virtual environment to source from
+|
 ├───requirements.txt # File of pip install statements for your app
+|
 ├───migrations # folder created for migrations by calling
+|
+|---app.db # database information stored here
+|
+|---config.py # configuration file for app
+|
 ├───app # main project folder, sub-components will be in separate folders
-|   |   __init__.py
-│   │   data.sqlite
-│   |---models
-│   │   |--- database .py classes
-│   │
+|   |
+|   |   __init__.py # instantiates the app
+│   |   models.py # contains database objects
+|   |   views.py # contains view functions for high level pages
+|   |   forms.py # contains form classes for high level pages
+|   |
 │   ├───owners
 │   │   │   forms.py
 │   │   │   views.py
@@ -26,7 +36,10 @@
 │   │   │           delete.html
 │   │   │           list.html
 │   │
-│   ├───static # Where you store your CSS, JS, Images, Fonts, etc...
+│   ├───static
+|   |   | # Where you store your CSS, JS, Images, Fonts, etc...
+|   |   |
+|   |
 │   ├───templates
 │          base.html
 │          home.html
