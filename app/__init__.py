@@ -13,6 +13,8 @@ app.config.from_object(Config)
 
 # Set up database
 db = SQLAlchemy(app)
+db.create_all()
+db.session.commit()
 migrate = Migrate(app, db)
 
 # Set up login manager
