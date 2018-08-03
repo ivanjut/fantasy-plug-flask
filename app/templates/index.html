@@ -5,7 +5,7 @@
     <p>The best source for your fantasy football information.</p>
     <p>Log in for full access!</p>
 </div>
-{% if current_user.is_anonymous %}
+{% if not current_user.is_authenticated %}
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width:50%; margin:2% auto; padding: ">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
