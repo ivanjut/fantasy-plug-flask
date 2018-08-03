@@ -4,7 +4,7 @@ from flask_login import UserMixin
 
 @login_manager.user_loader
 def load_user(user_id):
-	return User.query.get(user_id)
+	return User.query.get(int(user_id))
 
 # #####################################################
 # #### DATABASE MODELS ####
@@ -26,25 +26,5 @@ class User(db.Model, UserMixin):
 	def set_password(self, password):
 		self.password_hash = generate_password_hash(password)
 
-	def check_password(self, password):
+	def validate_password(self, password):
 		return check_password_hash(self.password_hash, password)
-
-# class Players(db.Model):
-# 	# Set table name
-# 	__tablename__ = "players"
-#
-# 	# Create columns of table
-# 	id = db.Column(db.Integer, primary_key=True)
-# 	name = db.Column(db.Text)
-#
-# 	def __init__(self, name):
-# 		"""
-# 		Defines an instance of a Players database table
-# 		"""
-# 		self.name = name
-#
-# 	def __repr__(self):
-# 		"""
-# 		String representation of a single item in the Players database table
-# 		"""
-# 		return self.name
