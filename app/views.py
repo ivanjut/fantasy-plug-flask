@@ -7,11 +7,18 @@ from app.models.user import User
 
 
 #####################################################
-#### VIEW FUNCTIONS ####
+#### NAVIGATION BAR ####
 #####################################################
+
 @app.route("/")
 def index():
 	return render_template("index.html")
+
+
+@app.route("/league")
+@login_required
+def league():
+	return render_template("league.html")
 
 
 @app.route("/my_team", methods=["GET", "POST"])
@@ -23,20 +30,28 @@ def my_team():
 	return render_template("my_team.html", form=form)
 
 
+@app.route("/players")
+def players():
+	return render_template("players.html")
+
+
+@app.route("/standings")
+@login_required
+def standings():
+	return render_template("standings.html")
+
+
+@app.route("/scoreboard")
+@login_required
+def scoreboard():
+	return render_template("scoreboard.html")
+
+
 @app.route("/news")
 def news():
 	return render_template("news.html")
 
-
-@app.route("/stats")
-def stats():
-	return render_template("stats.html")
-
-
-@app.route("/video")
-def video():
-	return render_template("video.html")
-
+##### ACCOUNT MANAGEMENT #####
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
