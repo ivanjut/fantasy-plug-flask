@@ -1,5 +1,5 @@
 from app import db
-from app.models.user_league_membership import memberships
+# from app.models.ownership import Ownership
 
 
 # #####################################################
@@ -13,8 +13,12 @@ class League(db.Model):
 
 	# Relationships with User
 	# Has implicit "commissioner" field from one-to-many relationship with User class
-	members = db.relationship("User", secondary=memberships, backref="leagues", lazy="dynamic")
+	# members = db.relationship("User", secondary=ownerships, backref="leagues", lazy="dynamic")
 	commissioner_id = db.Column(db.Integer, db.ForeignKey("user.id"))
+
+	# Relationships with Player
+	# players = db.relationship("Player", secondary=ownerships, backref="leagues", lazy="dynamic")
+
 
 	def __init__(self, name, size):
 		self.name = name
