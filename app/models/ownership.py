@@ -44,9 +44,3 @@ class Ownership(db.Model):
 
 	def __repr__(self):
 		return "<Ownership: User_{0} -- Leauge_{1} -- Player_{2}>".format(self.user_id, self.league_id, self.player_id)
-
-
-# ownerships = db.Table('memberships',
-# 					  db.Column("user_id", db.Integer, db.ForeignKey("user.id")),
-# 					  db.Column("league_id", db.Integer, db.ForeignKey("league.id")),
-# 					  db.Column("player_id", db.Integer, db.ForeignKey("player.id")))
